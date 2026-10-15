@@ -1,0 +1,16 @@
+# Sanal ortam ve Python onbellegi
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Buyuk / kisisel veriler: git'e girmez
+data/races/*
+data/reference/*
+index/*
+!**/.gitkeep
+
+# Etiketler (data/labels) ve splits.json kucuk ve senin emegin: git'te kalir
+
+# API anahtari: asla git'e girmez
+.streamlit/secrets.toml

@@ -1,0 +1,17 @@
+# Uygulama (arama + arayuz) bagimliliklari.
+# Tarama (OCR) ve testler icin: pip install -r requirements-local.txt
+
+# --- Yuz tanima ---
+insightface>=0.7.3          # Yuz tespiti + ArcFace embedding (hazir egitilmis modeller)
+onnxruntime>=1.20           # insightface modellerini calistiran motor (CPU)
+
+# --- Goruntu isleme ---
+opencv-python-headless>=4.9 # Resim okuma/yeniden boyutlandirma
+Pillow>=10.0                # EXIF yon bilgisi (telefon/kamera dondurmeleri) ve thumbnail
+numpy                       # Embedding vektorleri ve benzerlik hesaplari
+
+# --- Google Drive ---
+requests                    # Drive API cagrilari ve fotograflari bellege indirme
+
+# --- Arayuz ---
+streamlit>=1.40             # Python ile web arayuzu

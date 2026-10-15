@@ -1,0 +1,6 @@
+# Yerel ortam: web bagimliliklari + indeksleme/degerlendirme araclari
+-r requirements.txt
+
+easyocr>=1.7.1              # Gogus numarasi okuma; PyTorch'u (GPU destekli) beraberinde kurar
+tqdm                        # İlerleme çubuğu
+pytest                      # Unit testler
